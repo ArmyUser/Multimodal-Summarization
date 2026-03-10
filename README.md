@@ -17,4 +17,3 @@ Testing_FineTuning.ipynb is used to do inference with the different fine-tuned v
 Data&Results.ipynb then, is also used to aggregate all the results of these different inferences. So it has a part where all the predictions are cleaned and evaluated quantitatively with Rouge score and qualitatively.
 
 This project requires a Hugging Face access token to download the model weights for qwen and gemma, the token can be saved on the Colab Secrets section to run the notebooks. For the model “unsloth/gemma-3n-E2B-it”, the token it should be added manually on the argument “token” when the model is instantiated.
-<img width="499" height="451" alt="image" src="https://github.com/user-attachments/assets/5b80d5ee-8b02-401d-a804-5d71f8e44f4a" />
